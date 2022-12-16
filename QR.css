@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 218, 255);
+    display: flex;
+}
+
+.container {
+    align-self: center;
+    margin: 50px auto;
+    background-color: white;
+    width: 340px;
+    border-radius: 10px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
